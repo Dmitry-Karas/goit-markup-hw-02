@@ -15,7 +15,7 @@ primary-background-color:#ffffff
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
-  --hero-text-color: #ffffff;
+  --white-text-color: #ffffff;
   --hero-bg-color: #2f303a;
   --section-bg-color: #f5f4fa;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
@@ -42,7 +42,7 @@ body {
   color: #000000;
 }
 
-.logo-segment {
+.segment {
   color: var(--accent-color);
 }
 
@@ -70,12 +70,14 @@ body {
 }
 /* Герой */
 
-.hero-title {
-  color: var(--hero-text-color);
+.hero-container {
   background-color: var(--hero-bg-color);
 }
+.hero-title {
+  color: var(--white-text-color);
+}
 .hero-button {
-  color: var(--hero-text-color);
+  color: var(--white-text-color);
   background-color: var(--accent-color);
 }
 
@@ -90,13 +92,27 @@ body {
   background-color: var(--hero-bg-color);
 }
 .footer p {
-  color: var(--hero-text-color);
+  color: var(--white-text-color);
 }
 .logo.link.footer {
-  color: var(--hero-text-color);
+  color: var(--white-text-color);
 }
 .footer-contact {
   color: var(--footer-contact-color);
 }
 
 /* ----- Портфолио ----- */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--section-bg-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+.button.current {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
