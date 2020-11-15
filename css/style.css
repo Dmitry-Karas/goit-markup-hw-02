@@ -1,1 +1,65 @@
- 
+/* Палитра:
+
+primary-text-color: #757575
+title-text-color: #212121
+accent-color: #2196F3
+hero-color: #ffffff
+hero-background-color: #2F303A
+section-background-color: #F5F4FA
+primary-background-color:#ffffff
+
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --section-background-color: #f5f4fa;
+}
+/* Utilites */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Body */
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Logo */
+
+.logo {
+  color: #000000;
+}
+
+.logo-segment {
+  color: var(--accent-color);
+}
+
+/* Site navigation */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
