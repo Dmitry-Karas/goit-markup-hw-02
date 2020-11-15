@@ -15,6 +15,7 @@ primary-background-color:#ffffff
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
+  --hero-text-color: #ffffff;
   --hero-background-color: #2f303a;
   --section-background-color: #f5f4fa;
 }
@@ -62,4 +63,19 @@ body {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
+}
+/* Hero */
+
+.hero-title {
+  color: var(--hero-text-color);
+  background-color: var(--hero-background-color);
+}
+.hero-button {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Features */
+.section-title {
+  color: var(--title-text-color);
 }
