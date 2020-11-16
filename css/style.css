@@ -3,7 +3,7 @@
 primary-text-color: #757575
 title-text-color: #212121
 accent-color: #2196F3
-hero-color: #ffffff
+white-text-color: #ffffff
 hero-background-color: #2F303A
 section-background-color: #F5F4FA
 primary-background-color:#ffffff
@@ -13,11 +13,11 @@ primary-background-color:#ffffff
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bg-color: #ffffff;
   --white-text-color: #ffffff;
-  --hero-bg-color: #2f303a;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
   --section-bg-color: #f5f4fa;
+  --accent-color: #2196f3;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 /* Утилиты */
@@ -32,7 +32,7 @@ primary-background-color:#ffffff
 /* Body */
 
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -42,7 +42,7 @@ body {
   color: #000000;
 }
 
-.segment {
+.logo-segment {
   color: var(--accent-color);
 }
 
@@ -71,7 +71,7 @@ body {
 /* Герой */
 
 .hero-container {
-  background-color: var(--hero-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 .hero-title {
   color: var(--white-text-color);
@@ -89,12 +89,12 @@ body {
 /* Подвал */
 
 .footer {
-  background-color: var(--hero-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 .footer p {
   color: var(--white-text-color);
 }
-.logo.link.footer {
+.footer-logo {
   color: var(--white-text-color);
 }
 .footer-contact {
