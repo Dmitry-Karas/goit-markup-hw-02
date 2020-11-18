@@ -34,12 +34,18 @@ primary-background-color:#ffffff
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: roboto, serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 /* Логотип */
 
 .logo {
   color: #000000;
+  font-family: raleway, serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-segment {
@@ -48,6 +54,13 @@ body {
 
 /* Основная навигицая */
 
+.site-nav,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -75,14 +88,27 @@ body {
 }
 .hero-title {
   color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
-.section-title {
+.section-title,
+.name-title,
+.title {
   color: var(--title-text-color);
 }
 
