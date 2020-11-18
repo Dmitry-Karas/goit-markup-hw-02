@@ -43,7 +43,8 @@ body {
 
 /* Логотип */
 
-.logo {
+.logo,
+.footer-logo {
   color: #000000;
   font-family: raleway, serif;
   font-size: 26px;
