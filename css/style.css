@@ -36,7 +36,9 @@ body {
   color: var(--primary-text-color);
   font-family: roboto, serif;
   font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /* Логотип */
@@ -91,8 +93,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
 }
 .hero-button {
@@ -101,8 +103,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* Section */
@@ -110,6 +112,29 @@ body {
 .name-title,
 .title {
   color: var(--title-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 
 /* Подвал */
@@ -129,7 +154,7 @@ body {
 
 /* ----- Портфолио ----- */
 
-.button {
+.portfolio-nav .button {
   color: var(--title-text-color);
   background-color: var(--section-bg-color);
 }
