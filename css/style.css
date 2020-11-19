@@ -57,8 +57,8 @@ body {
 
 /* Основная навигицая */
 
-.site-nav,
-.contacts {
+.header .site-nav,
+.header .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,7 +76,9 @@ body {
 }
 
 /* Контакты */
-
+.contacts {
+  font-style: normal;
+}
 .contacts .link {
   color: var(--primary-text-color);
 }
@@ -84,6 +86,7 @@ body {
 .contacts .link:focus {
   color: var(--accent-color);
 }
+
 /* Герой */
 
 .hero-container {
@@ -109,6 +112,7 @@ body {
 }
 
 /* Section */
+
 .section-title,
 .name-title,
 .title {
@@ -149,7 +153,7 @@ body {
 .footer-logo {
   color: var(--white-text-color);
 }
-.footer-contact {
+.contacts .footer-contact {
   color: var(--footer-contact-color);
 }
 
