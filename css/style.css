@@ -20,7 +20,7 @@ primary-background-color:#ffffff
   --accent-color: #2196f3;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
-/* Утилиты */
+/* ========== UTILITIES ========== */
 
 .list {
   list-style: none;
@@ -42,7 +42,9 @@ primary-background-color:#ffffff
   overflow: hidden;
 }
 
-/* Body */
+/* ========== END UTILITIES ========== */
+
+/* ========== BODY ========== */
 
 body {
   background-color: var(--primary-bg-color);
@@ -54,7 +56,9 @@ body {
   line-height: 1.71;
 }
 
-/* Логотип */
+/* ========== END BODY ========== */
+
+/* ========== LOGO ========== */
 
 .logo,
 .footer-logo {
@@ -68,7 +72,9 @@ body {
   color: var(--accent-color);
 }
 
-/* Основная навигицая */
+/* ========== END LOGO ========== */
+
+/* ========== NAVIGATION ========== */
 
 .header .site-nav,
 .header .contacts {
@@ -88,7 +94,10 @@ body {
   color: var(--accent-color);
 }
 
-/* Контакты */
+/* ========== END NAVIGATION ========== */
+
+/* ========== CONTACTS ========== */
+
 .contacts {
   font-style: normal;
 }
@@ -100,7 +109,9 @@ body {
   color: var(--accent-color);
 }
 
-/* Герой */
+/* ========== END CONTACTS ========== */
+
+/* ========== HERO ========== */
 
 .hero-container {
   background-color: var(--secondary-bg-color);
@@ -117,6 +128,7 @@ body {
 .hero-button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+  font-family: roboto, serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -124,7 +136,9 @@ body {
   text-align: center;
 }
 
-/* Section */
+/* ========== END HERO ========== */
+
+/* ========== SECTION ========== */
 
 .section-title,
 .name-title,
@@ -155,7 +169,9 @@ body {
   text-align: center;
 }
 
-/* Подвал */
+/* ========== END SECTION ========== */
+
+/* ========== FOOTER ========== */
 
 .footer {
   background-color: var(--secondary-bg-color);
@@ -170,11 +186,19 @@ body {
   color: var(--footer-contact-color);
 }
 
-/* ----- Портфолио ----- */
+/* ========== END FOOTER ========== */
+
+/* ########## PORTFOLIO ########## */
 
 .portfolio-nav .button {
   color: var(--title-text-color);
   background-color: var(--section-bg-color);
+  font-family: roboto, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
